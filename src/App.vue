@@ -54,5 +54,4 @@ const logout = () => {
 </script>
 
 <style>
-
 </style>

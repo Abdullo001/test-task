@@ -224,8 +224,6 @@ const addCustomer = () => {
   newCustomer.value = { name: '', age: 0, email: '', phone: '', hobbies: '' };
 };
 const editedCustomer = () => {
-  console.log(selectedCustomer);
-  
   if (!validateForm(selectedCustomer)) {
     return;
   }
